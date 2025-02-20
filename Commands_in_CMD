@@ -1,17 +1,35 @@
+CMD Commands with Explanations
 shutdown /r /fw /f /t 0
+Restarts the system and enters firmware settings (BIOS/UEFI).
 ipconfig /all
+Displays detailed network information including IP addresses, MAC addresses, DNS servers, etc.
 getmac /v
+Shows the MAC addresses of network interfaces with additional details.
 powercfg /batteryreport
+Generates a battery report and saves it as an HTML file.
 ping www.google.com
+Sends ICMP packets to Google to check network connectivity.
 copy /b bird.jpg + tashi.zip birds.jpg
-netsh wlan show profile 
-netsh wlan show profile "wifi_name" key=clear
-systeminfo 
+Merges bird.jpg and tashi.zip into a single file. The resulting file can be opened as an image but contains the ZIP file inside.
+netsh wlan show profile
+Displays all saved wireless network profiles.
+netsh wlan show profile 'wifi_name' key=clear
+Displays details of a specific Wi-Fi profile including the saved password (if available).
+systeminfo
+Displays detailed system information like OS version, RAM, network adapter, etc.
 cmd
+Launches a new Command Prompt window.
 explorer .
+Opens File Explorer in the current directory.
 color /?
-color 70 (7 for background and 0 for text color)
+Displays help for changing the Command Prompt colors.
+color 70
+Changes the Command Prompt colors with light white background and black text.
 curl qrenco.de/www.google.com
+Uses curl to generate a QR code for the URL www.google.com.
 start www.google.com
-f7 (it displays the command we used before)
-doskey/history
+Opens Google in your default web browser.
+f7
+Displays a list of previously executed commands.
+doskey /history
+Shows the history of commands used in the current session.
