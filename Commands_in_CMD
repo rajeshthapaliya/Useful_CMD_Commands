@@ -1,0 +1,17 @@
+shutdown /r /fw /f /t 0
+ipconfig /all
+getmac /v
+powercfg /batteryreport
+ping www.google.com
+copy /b bird.jpg + tashi.zip birds.jpg
+netsh wlan show profile 
+netsh wlan show profile "wifi_name" key=clear
+systeminfo 
+cmd
+explorer .
+color /?
+color 70 (7 for background and 0 for text color)
+curl qrenco.de/www.google.com
+start www.google.com
+f7 (it displays the command we used before)
+doskey/history
